@@ -1,0 +1,101 @@
+
+.background img{
+    width:100%;
+     height:500px;
+    background-size: cover;
+    padding:0px;
+    -webkit-display: flex;
+    display: flex;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    border-block-color: red;
+    height: 50px;
+    width: 1;
+}
+h3{
+    text-align: center;
+    border-block-color: red;
+    height: 200px;
+    width: 1;
+}
+i{
+    color: seashell;
+}
+
+.Header {
+    width: 100%;
+    height: 100px;  
+    background-color: chocolate;
+    top:0;
+}
+h1{
+    text-align: center;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+#paraimage{
+
+    display: flex;
+    background-color: darkgreen;
+    background-image: url(/image/sushi1.jpg);
+}
+.aboutus{
+
+background-image: url(/image/sushi1.jpg);
+}
+p{
+    display: flex;
+    font-size: 50px;
+    color: purple;
+}
+.recipe p{
+    display: flex;
+    font-size: 25px;
+}
+
+table{
+    border:"1px";
+     padding: 10px 0px;
+     width: 100%;
+}
+.nav{
+    color: blue;
+}
+#drop-content{
+    display: none;
+    position:absolute;
+    z-index: 1;
+}
+#drop-content a{
+display: block;
+font-size: 20px;
+background: aqua;
+color:blue;
+text-decoration: none;
+padding:20px 10px 20px;
+padding-right: 50px;
+padding-left: 105px;
+text-align: center;
+margin-right: 100px;
+}
+.footer{
+    background-color: chocolate;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+      
+}
+
